@@ -1,0 +1,23 @@
+.main {
+  padding: 10px;
+  background-color: beige;
+}
+.blockBtn {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+.costs,
+.incomes {
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid gray;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.costs {
+  margin-right: 20px;
+}
+.incomes {
+}

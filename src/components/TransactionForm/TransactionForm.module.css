@@ -1,0 +1,74 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  font-size: 10px;
+
+  padding: 10px;
+}
+.form input {
+}
+.label {
+  display: flex;
+  flex-direction: column;
+}
+.div {
+  display: flex;
+
+  padding: 10px;
+
+  border-bottom: 1px solid gray;
+}
+.day,
+.time {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+  font-size: 12px;
+}
+.inputDay,
+.inputTime {
+  font-size: 18px;
+  color: blue;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+.inputDay {
+  width: 75%;
+}
+.inputTime {
+  width: 50%;
+}
+.category,
+.summa,
+.valyta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+.categoryInput,
+.summaInput,
+.valytaInput,
+.commentInput {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+}
+.summaInput,
+.commentInput {
+  border-bottom: 1px solid rgb(200, 199, 199);
+  width: 70%;
+}
+.comment {
+  border-bottom: 1px solid gray;
+  padding: 20px 10px 10px 10px;
+}

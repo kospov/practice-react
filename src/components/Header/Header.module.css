@@ -1,0 +1,13 @@
+.header {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.btn {
+  margin-right: 30px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+}
